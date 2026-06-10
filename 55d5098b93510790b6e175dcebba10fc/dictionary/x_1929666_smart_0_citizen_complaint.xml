@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="47e6958f93d10790b6e175dcebba1032" label="Citizen Complaint" max_length="40" name="x_1929666_smart_0_citizen_complaint" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="citizen" max_length="32" name="citizen" reference="x_1929666_smart_0_citizen" type="reference"/>
+        <element choice="3" label="status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+                <element inactive_on_update="false" label="Resolved" sequence="3" value="resolved"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+            </choice>
+        </element>
+        <element choice="3" label="priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="low" sequence="1" value="low"/>
+                <element inactive_on_update="false" label="high" sequence="0" value="high"/>
+                <element inactive_on_update="false" label="medium" sequence="2" value="medium"/>
+            </choice>
+        </element>
+        <element choice="3" label="category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Street Light" sequence="4" value="street_light"/>
+                <element inactive_on_update="false" label="Road" sequence="2" value="road"/>
+                <element inactive_on_update="false" label="Other" sequence="6" value="other"/>
+                <element inactive_on_update="false" label="Water" sequence="0" value="water"/>
+                <element inactive_on_update="false" label="Public Works" sequence="5" value="public_works"/>
+                <element inactive_on_update="false" label="Garbage" sequence="3" value="garbage"/>
+                <element inactive_on_update="false" label="Electricity" sequence="1" value="electricity"/>
+            </choice>
+        </element>
+        <element label="department" max_length="32" name="department" reference="x_1929666_smart_0_department" type="reference"/>
+        <element label="complaint description" max_length="40" name="complaint_description" type="string"/>
+        <index name="index">
+            <element name="citizen"/>
+        </index>
+        <index name="index2">
+            <element name="department"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

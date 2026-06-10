@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="84dfc18f93910790b6e175dcebba101d" label="department" max_length="40" name="x_1929666_smart_0_department" type="collection">
+        <element label="description" max_length="40" name="description" type="string"/>
+        <element label="department head" max_length="40" name="department_head" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="department name" max_length="40" name="department_name" type="string"/>
+        <element label="department code" max_length="40" name="department_code" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

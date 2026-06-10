@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 06:32:25</sys_created_on>
+        <sys_id>60f6198f93d10790b6e175dcebba1001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1929666_smart_0_citizen_complaint.x_1929666_smart_0.user</sys_name>
+        <sys_package display_value="smart govt citizen service assistant" source="x_1929666_smart_0">55d5098b93510790b6e175dcebba10fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="smart govt citizen service assistant">55d5098b93510790b6e175dcebba10fc</sys_scope>
+        <sys_security_acl display_value="x_1929666_smart_0_citizen_complaint">50f6d58f93d10790b6e175dcebba10ec</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_60f6198f93d10790b6e175dcebba1001</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 06:32:25</sys_updated_on>
+        <sys_user_role display_value="x_1929666_smart_0.user" name="x_1929666_smart_0.user">29d5498b93510790b6e175dcebba104c</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

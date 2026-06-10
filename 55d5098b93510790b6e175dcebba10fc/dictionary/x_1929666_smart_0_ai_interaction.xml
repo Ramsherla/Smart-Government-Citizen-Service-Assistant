@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e2c9910793150790b6e175dcebba10e3" label="AI Interaction" max_length="40" name="x_1929666_smart_0_ai_interaction" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="question" max_length="40" name="question" type="string"/>
+        <element label="time stamp" max_length="255" name="time_stamp" type="glide_date_time"/>
+        <element display="true" label="citizen" max_length="32" name="citizen" reference="x_1929666_smart_0_citizen" type="reference"/>
+        <element label="ai response" max_length="100" name="ai_response" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="citizen"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

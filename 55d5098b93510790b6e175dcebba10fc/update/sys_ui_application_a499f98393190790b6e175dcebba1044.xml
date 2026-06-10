@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Smart govt</name>
+        <order>10</order>
+        <roles>x_1929666_smart_0.user,x_1929666_smart_0.admin,admin</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 09:04:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a499f98393190790b6e175dcebba1044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Smart govt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="smart govt citizen service assistant" source="x_1929666_smart_0">55d5098b93510790b6e175dcebba10fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="smart govt citizen service assistant">55d5098b93510790b6e175dcebba10fc</sys_scope>
+        <sys_update_name>sys_ui_application_a499f98393190790b6e175dcebba1044</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 09:04:32</sys_updated_on>
+    </sys_ui_application>
+</record_update>

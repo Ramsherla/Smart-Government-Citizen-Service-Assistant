@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Smart Govt Services</name>
+        <order>100</order>
+        <roles>x_1929666_smart_0.admin,x_1929666_smart_0.user,admin</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 08:53:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b50731cf93d50790b6e175dcebba10d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Smart Govt Services</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="smart govt citizen service assistant" source="x_1929666_smart_0">55d5098b93510790b6e175dcebba10fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="smart govt citizen service assistant">55d5098b93510790b6e175dcebba10fc</sys_scope>
+        <sys_update_name>sys_ui_application_b50731cf93d50790b6e175dcebba10d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 09:00:13</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="smart govt citizen service assistant">55d5098b93510790b6e175dcebba10fc</application>
+        <file_path/>
+        <instance_id>86e0762eebd40f54e9bbfddacad0cdd2</instance_id>
+        <instance_name>dev386211</instance_name>
+        <name>sys_ui_application_b50731cf93d50790b6e175dcebba10d1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Smart Govt Services</name><order>100</order><roles>x_1929666_smart_0.admin,x_1929666_smart_0.user,admin</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-10 08:53:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b50731cf93d50790b6e175dcebba10d1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Smart Govt Services</sys_name><sys_overrides/><sys_package display_value="smart govt citizen service assistant" source="x_1929666_smart_0">55d5098b93510790b6e175dcebba10fc</sys_package><sys_policy/><sys_scope display_value="smart govt citizen service assistant">55d5098b93510790b6e175dcebba10fc</sys_scope><sys_update_name>sys_ui_application_b50731cf93d50790b6e175dcebba10d1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-10 09:00:13</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-910707934</payload_hash>
+        <record_name>Smart Govt Services</record_name>
+        <reverted_from/>
+        <source>a5d5498b93510790b6e175dcebba1037</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 09:00:13</sys_created_on>
+        <sys_id>29c8f58393190790b6e175dcebba107b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eb0c2bfd60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 09:00:13</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>e5c8f583151907906133ed6e6aab697a</update_guid>
+        <update_guid_history>e5c8f583151907906133ed6e6aab697a:-910707934,b298358399190790f48d71c96053554d:-1808534209,f82731cf33d5079019716a0ffe509be1:-1528420328</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 09:02:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>41306768837146aa871668cde5cdf7e4</sys_id>
+        <sys_metadata>b50731cf93d50790b6e175dcebba10d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Smart Govt Services</sys_name>
+        <sys_package display_value="smart govt citizen service assistant" source="x_1929666_smart_0">55d5098b93510790b6e175dcebba10fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="smart govt citizen service assistant">55d5098b93510790b6e175dcebba10fc</sys_scope>
+        <sys_scope_delete display_value="">7e59866fade34ed897f277c8c799a0c4</sys_scope_delete>
+        <sys_update_name>sys_ui_application_b50731cf93d50790b6e175dcebba10d1</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_b50731cf93d50790b6e175dcebba10d1">29c8f58393190790b6e175dcebba107b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 09:02:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="d1a4994b93d10790b6e175dcebba107f" label="service request" max_length="40" name="x_1929666_smart_0_service_request" type="collection">
+        <element choice="3" label="status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="submitted"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Under Review" sequence="1" value="under_review"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="3" label="service type" max_length="255" name="service_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Residence Certificate" sequence="1" value="residence_certificate"/>
+                <element inactive_on_update="false" label="Income Certificate" sequence="0" value="income_certificate"/>
+                <element inactive_on_update="false" label="Pension Request" sequence="3" value="pension_request"/>
+                <element inactive_on_update="false" label="Death Certificate" sequence="4" value="death_certificate"/>
+                <element inactive_on_update="false" label="Birth Certificate" sequence="2" value="birth_certificate"/>
+            </choice>
+        </element>
+        <element label="created date" max_length="40" name="created_date" type="glide_date"/>
+        <element label="assigned dept" max_length="32" name="assigned_dept" reference="x_1929666_smart_0_department" type="reference"/>
+        <element label="description" max_length="40" name="description" type="string"/>
+        <element label="citizen" max_length="32" name="citizen" reference="x_1929666_smart_0_citizen" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="assigned_dept"/>
+        </index>
+        <index name="index2">
+            <element name="citizen"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
